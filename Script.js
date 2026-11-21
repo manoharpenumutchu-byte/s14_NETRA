@@ -5,4 +5,4 @@ function updateClock() {
 }
 // Run once now, then repeat every 1000 ms
 updateClock();
-setInterval
+setInterval(updateClock, 1000);
